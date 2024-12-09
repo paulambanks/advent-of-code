@@ -1,7 +1,7 @@
 import { createReadStream } from 'node:fs';
 import { createInterface } from 'node:readline';
 import { once } from 'node:events';
-import { softLevelCheck } from './helpers';
+import { softLevelCheck } from './helpers.js';
 
 const removeLevel = (levels: Number[], levelIndex: number) => {
   const newLevels = [...levels];
@@ -35,8 +35,6 @@ const removeLevel = (levels: Number[], levelIndex: number) => {
               safeLevels++;
               break;
             }
-            
-            continue;
           }
         }
       })

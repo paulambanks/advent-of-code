@@ -1,5 +1,5 @@
 import * as fs from 'fs';
-import { calculateAbsoluteDifference, calculateSimilarityScore } from './helpers';
+import { calculateAbsoluteDifference, calculateSimilarityScore } from './helpers.js';
 
 fs.readFile('src/day-one/input.txt', function(err, data) {
     let rows = data.toString().split('\n');
