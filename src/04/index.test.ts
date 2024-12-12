@@ -1,5 +1,5 @@
 import {describe, expect} from '@jest/globals';
-import { sumOfXMAS, partOneOffsetMapping, partTwoOffsetMapping } from './day-four';
+import { sumOfXMAS, partOneOffsetMapping, partTwoOffsetMapping } from '.';
 
 const testFile = `
 MMMSXXMASM

@@ -31,7 +31,7 @@ export const moreAccurateSum = (file: string) => {
   return sum;
 }
 
-fs.readFile('src/day-three/input.txt', function(err, data) {
+fs.readFile('./input.txt', function(err, data) {
 
   return {
     lessAccurateSum: lessAccurateSum(data.toString()),

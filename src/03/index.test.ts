@@ -1,4 +1,4 @@
-import { lessAccurateSum, moreAccurateSum } from './day-three';
+import { lessAccurateSum, moreAccurateSum } from '.';
 
 describe('day-three', () => {
     it('should return the correct sum for less accurate', () => {

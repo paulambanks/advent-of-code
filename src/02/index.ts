@@ -12,7 +12,7 @@ const removeLevel = (levels: Number[], levelIndex: number) => {
 (async function processLineByLine() {
   try {
     const readline = createInterface({
-      input: createReadStream('src/day-two/input.txt'),
+      input: createReadStream('./input.txt'),
       crlfDelay: Infinity,
     });
 

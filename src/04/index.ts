@@ -48,7 +48,7 @@ export const sumOfXMAS = (file: string, offsetMapping: [number, number][][] = []
     return count;
 }
 
-fs.readFile('src/day-four/input.txt', function(err, data) {
+fs.readFile('./input.txt', function(err, data) {
 
     return {
         sumOfXMAS: sumOfXMAS(data.toString(), partOneOffsetMapping, new Set(['XMAS'])),
